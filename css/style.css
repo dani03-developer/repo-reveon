@@ -103,9 +103,48 @@ a{
     padding: 10px 0;
     text-align: center;
 }
-
 .container-fluid {
     padding: 0 1.5rem;
+}
+
+/*Nosotros.html*/
+.nosotros-header{
+    height: fit-content;
+    width: auto;
+    background-image:url(../img/fondo-nosotros.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container-portada-header-nosotros{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 55vh;
+}
+.container-portada-header-nosotros h1{
+  font-weight: 600;
+  font-size: clamp(3rem, 8vw, 7rem);
+}
+.inicial-estilo-origen{
+  font-family: "Pinyon Script", cursive;
+  font-weight: 500;
+  font-size: clamp(6rem, 15vw, 13rem);
+}
+.container-portada-header-nosotros a{
+  font-size: clamp(1.5rem, 5vw, 3rem);
+}
+.franja-nosotros{
+  margin-top: -3.5rem;
+  background-color: var(--color-blanco-catalogo-header);
+  align-items: center;
+  padding: 1rem 2rem;
+  text-align: center;
+}
+.franja-nosotros h3{
+  color: var(--color-negro);
+  margin-bottom: -.5rem;
+  font-size: clamp(.60rem, 2vw, 1rem);
 }
  /*===================================
           SECCIÓN INFORMATIVA       
@@ -260,6 +299,74 @@ a{
     width: 100%;
     height: auto;
 }
+/*Nosotros.html*/
+.texto-nosotros{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ text-align: center;
+ padding: 2rem 1.5rem;
+  font-size: clamp(.75rem, 2vw, 1.2rem);
+}
+.kitsune-nosotros{
+  width: 100%;
+}
+.container-info-producto-nosotros{
+  background-color: var(--color-blanco);
+  padding: 2rem 1.5rem;
+  color: var(--color-negro);
+}
+.columna-producto-nosotros{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 1rem;
+}
+.columna-producto-nosotros p{
+  font-size: clamp(.65rem, 1vw, .90rem);
+}
+.columna-producto-nosotros h3{
+  font-size: 0.90rem;
+  font-weight: 700;
+}
+.carousel {
+  display: flex;
+   justify-content: center;
+}
+.carousel-inner{
+  width: 55%;
+}
+.franja-nosotros-carrusel{
+  display: flex;
+  width: 100%;
+  margin: 2rem 0;
+  overflow-x: auto;
+  gap: .50rem;
+  background-color: var(--color-blanco);
+  color: var(--color-negro);
+  font-weight: 700;
+}
+.franja-nosotros-carrusel::-webkit-scrollbar {
+    display: none;
+}
+.group{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  animation: spin 7s infinite linear;
+}
+.texto-carrusel{
+  height: 3rem;
+  font-size: clamp(.90rem, 2vw, 1rem);;
+  text-align: center;
+  align-content: center;
+  width: 10rem;
+}
+@keyframes spin{
+  from{translate: 0;}
+  to{translate: -100%;}
+}
 /*===================================
               FOOTER                 
   ===================================*/
@@ -280,6 +387,9 @@ a{
    .container-flor-naranja {
     height: 65%;
     right: 4%;
+  }
+  .texto-nosotros{
+    padding: 2rem 2rem;
   }
 }
 
@@ -320,6 +430,18 @@ a{
     .container-modelo-footer img {
     width: 50vw;
 }
+.container-portada-header-nosotros {
+    height: 70vh;
+  }
+    .texto-nosotros {
+        padding: 2rem 6rem;
+    }
+    .columna-producto-nosotros{
+        padding: 0 2rem;
+    }
+    .carousel-inner{
+      width: 60%;
+    }
 }
 
 /*Large devices (desktops, 992px and up)*/
@@ -363,7 +485,9 @@ a{
   grid-template-columns: repeat(4, 1fr);
   row-gap: 1.75rem;
   }
-
+  .container-portada-header-nosotros {
+    height: 80vh;
+  }
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
