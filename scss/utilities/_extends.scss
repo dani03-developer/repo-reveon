@@ -1,0 +1,24 @@
+%flexColumn{
+  display: flex;
+  flex-direction: column;
+}
+%flexjustifyCenter{
+    display: flex;
+    justify-content: center;
+}
+%flexColumCenter{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+%backgroundImageHeader{
+    height: fit-content;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+%fontAlingCenter{
+    text-align: center;
+    align-items: center;
+}

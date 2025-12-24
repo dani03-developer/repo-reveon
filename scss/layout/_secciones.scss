@@ -1,0 +1,96 @@
+ @use '../utilities/variables';
+  @use '../utilities/extends';
+  @use '../utilities/mixins';
+ /*===================================
+          SECCIÓN INFORMATIVA       
+  ===================================*/
+  /*Index.html*/
+  .item-imagen-zorro{
+    display: flex;
+    align-items: end;
+  }
+  .item-info-zorro{
+         height: auto; 
+        margin: 0 auto;
+        @extend %fontAlingCenter;
+        padding: 2rem 3.3rem 3rem 3.3rem; /*arriba, derecha, abajo, izquierda*/
+    }
+  .info-zorro-btn{
+    background-color: variables.$color-verde;
+    color:variables.$color-blanco;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: none;
+     width: fit-content;
+    border-radius: 0.5rem;
+}
+.item-slogan{
+    @extend %flexjustifyCenter;
+    flex-direction: column;
+    padding-top: 4rem;
+    position: relative;
+    height: fit-content; 
+}
+.slogan{
+    @extend %flexColumn;
+    margin: 0 8vw;
+    gap: 2rem;
+    text-align: center;
+    z-index: 2;
+
+}
+.inicial-estilo{
+   font-family: "Pinyon Script", cursive;
+   font-weight: 200;
+   font-size: clamp(6rem, 10vw, 13rem);
+   line-height: 1;
+}
+.slogan h3{
+    font-size: clamp(3rem, 5vw + 1rem, 12rem);
+}
+.slogan p{
+    font-size:  clamp(1rem, 2vw + 0.5rem, 4.2rem);
+    font-family: "Vollkorn", serif;
+    margin-top: -1rem; 
+    margin-bottom: -1rem;
+}
+.container-modelo-marron {
+  position: absolute;
+  display: flex;
+  bottom: 0;
+  left: 3%;
+  z-index: 1;
+  height: 60%;
+  width: auto;
+  align-items: end;
+}
+.container-modelo-marron img{
+  object-fit: contain;
+  height: 100%;
+}
+
+.container-flor-naranja{
+  display: flex;
+    position: absolute;
+    bottom: 0;
+    right: 3%;
+    z-index: 1;
+    height: 60%;
+    width: auto;
+     align-items: end; 
+}
+.container-flor-naranja img{
+    height: 100%;
+    object-fit: contain;
+}
+
+.icon{
+    font-size: clamp(1.7rem, 4vw + 0.5rem, 2.5rem);
+}
+.container-modelo-footer {
+    @extend %flexjustifyCenter;
+}
+.container-modelo-footer img {
+    width: 80vw;
+    height: auto;
+}

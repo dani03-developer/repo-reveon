@@ -1,0 +1,107 @@
+@use '../utilities/variables';
+@use '../utilities/extends';
+@use '../utilities/mixins';
+/*===================================*/
+/*       ESTILOS HEADER*/
+/*===================================*/
+/*Index.html*/
+.index-header{
+  @extend %backgroundImageHeader;
+    background-image:url(../img/fondo_header_nuevo.png);
+}
+.container-portada-header{
+  @extend %flexColumCenter;
+  flex-direction: column-reverse;
+  gap: 2rem;
+  padding-bottom: 2rem;
+}
+ .texto-portada-header{
+    width: 80%; 
+    margin: 0 auto;
+    @extend %fontAlingCenter;
+    font-size: .90rem;
+
+  }
+  .imagen-portada-header{
+    @extend %flexjustifyCenter;
+    img{
+       width: 65%;
+    }
+  }
+  .index-header-btn{
+    background-color: variables.$color-negro;
+    color: variables.$color-blanco;
+    padding: 1rem;
+    @include mixins.tipografiabasica(1rem,500);
+    border: none;
+    width: 40%;
+    border-radius: 0.2rem;
+    width: fit-content;
+
+}
+/*Catalogo.html*/
+.navbar {
+    background-color:variables.$color-blanco-catalogo-header;
+    padding: 1rem 0;
+}
+.logo-mobile-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1100;
+}
+
+.logo-bolsa {
+    color:  variables.$color-negro;
+}
+.navbar-collapse {
+    background-color:  variables.$color-negro; 
+    padding: 1rem;
+    width: 100%;
+    position: absolute; 
+    top: 100%;
+    left: 0;
+    z-index: 1080;
+}
+.nav-link {
+  color: variables.$color-blanco;
+    font-weight: 500;
+    padding: 10px 0;
+    text-align: center;
+}
+.container-fluid {
+    padding: 0 1.5rem;
+}
+
+/*Nosotros.html*/
+.nosotros-header{
+    @extend %backgroundImageHeader;
+    background-image:url(../img/fondo-nosotros.png);
+}
+.container-portada-header-nosotros{
+  @extend %flexColumCenter;
+  height: 55vh;
+}
+.container-portada-header-nosotros h1{
+  font-weight: 600;
+  font-size: clamp(3rem, 8vw, 7rem);
+}
+.inicial-estilo-origen{
+  font-family: "Pinyon Script", cursive;
+  font-weight: 500;
+  font-size: clamp(6rem, 15vw, 13rem);
+}
+.container-portada-header-nosotros a{
+  font-size: clamp(1.5rem, 5vw, 3rem);
+}
+.franja-nosotros{
+  margin-top: -3.5rem;
+  background-color: variables.$color-blanco;
+  @extend %fontAlingCenter;
+  padding: 1rem 2rem;
+}
+.franja-nosotros h3{
+  color:  variables.$color-negro;
+  margin-bottom: -.5rem;
+  font-size: clamp(.60rem, 2vw, 1rem);
+}
