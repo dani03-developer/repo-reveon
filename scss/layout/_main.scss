@@ -54,6 +54,30 @@
     width: 100%;
     height: auto;
 }
+
+/*Help & Info */
+.main-help{
+  @extend %flexColumCenter;
+  gap: 1.5rem;
+}
+.titulo-info{
+  display: flex;
+  text-align: start;
+  width: 89%;
+  h3{
+    @include mixins.tipografiabasica(1.1rem,700);
+  }
+}
+.info{
+  background-color: variables.$color-gris-oscuro;
+  width: 90%;
+  padding: 2rem 1.2rem 2rem 1.2rem; /*arriba, derecha, abajo, izquierda*/
+   ol, p{
+    font-size: clamp(.70rem, 2vw, .90rem);
+  }
+}
+
+
 /*Nosotros.html*/
 .texto-nosotros{
   @extend %flexjustifyCenter;

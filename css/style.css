@@ -9,7 +9,7 @@ body, .card-producto, .descripcion-producto, .slogan {
   justify-content: center;
 }
 
-.container-portada-header, .container-portada-header-nosotros {
+.main-help, .container-portada-header, .container-portada-header-nosotros {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -292,6 +292,30 @@ body, .card-producto, .descripcion-producto, .slogan {
   height: auto;
 }
 
+/*Help & Info */
+.main-help {
+  gap: 1.5rem;
+}
+
+.titulo-info {
+  display: flex;
+  text-align: start;
+  width: 89%;
+}
+.titulo-info h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.info {
+  background-color: #2F2A2A;
+  width: 90%;
+  padding: 2rem 1.2rem 2rem 1.2rem; /*arriba, derecha, abajo, izquierda*/
+}
+.info ol, .info p {
+  font-size: clamp(0.7rem, 2vw, 0.9rem);
+}
+
 /*Nosotros.html*/
 .texto-nosotros {
   padding: 2rem 1.5rem;
@@ -442,6 +466,9 @@ a {
   .container-modelo-footer img {
     width: 50vw;
   }
+  .info, .titulo-info {
+    width: 80%;
+  }
   .container-portada-header-nosotros {
     height: 70vh;
   }
@@ -493,6 +520,9 @@ a {
     grid-template-columns: repeat(4, 1fr);
     row-gap: 1.75rem;
   }
+  .info, .titulo-info {
+    width: 60%;
+  }
   .container-portada-header-nosotros {
     height: 80vh;
   }
@@ -509,6 +539,9 @@ a {
   .container-flor-naranja {
     height: 85%;
     right: 6%;
+  }
+  .info {
+    padding: 3rem 2rem 3rem 2rem; /*arriba, derecha, abajo, izquierda*/
   }
 }
 /* XX-Large devices (larger desktops, 1400px and up) */

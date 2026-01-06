@@ -82,6 +82,9 @@ a{
     .container-modelo-footer img {
     width: 50vw;
 }
+.info, .titulo-info{
+  width: 80%;
+}
 .container-portada-header-nosotros {
     height: 70vh;
   }
@@ -140,6 +143,9 @@ a{
   grid-template-columns: repeat(4, 1fr);
   row-gap: 1.75rem;
   }
+  .info, .titulo-info{
+  width: 60%;
+}
   .container-portada-header-nosotros {
     height: 80vh;
   }
@@ -158,6 +164,9 @@ a{
         height: 85%;
         right: 6%;
     }
+  .info{
+     padding: 3rem 2rem 3rem 2rem; /*arriba, derecha, abajo, izquierda*/
+  }
 }
 
 /* XX-Large devices (larger desktops, 1400px and up) */
