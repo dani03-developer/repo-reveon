@@ -141,3 +141,73 @@
   from{translate: 0;}
   to{translate: -100%;}
 }
+
+/*Contacto.html*/
+.main-contacto{
+   @extend %flexjustifyCenter;
+   align-items: start;
+  flex-direction: row;
+  position: relative;
+ 
+}
+.container-form{
+  @extend %flexColumn;
+  gap: .5rem;
+  z-index: 2;
+  h1{
+       font-weight:600;
+  }
+  form{
+    label, .inputs{
+      margin-bottom: 1rem;
+    }
+  }
+}
+.inputs{
+  border: none;
+  color: variables.$color-blanco;
+  width: 100%;
+  background-color: transparent;
+  border-bottom: .1rem solid variables.$color-blanco;
+}
+.contact-btn{
+   background-color: variables.$color-blanco;
+    color: variables.$color-negro;
+    padding: .5rem;
+    @include mixins.tipografiabasica(1rem,500);
+    border: none;
+    width: 40%;
+    border-radius: 0.2rem;
+}
+.container-img-contact{
+  @extend %flexjustifyCenter;
+  img{
+    width: 85%;
+    z-index: 2;
+    animation: floating-bag 4s ease-in-out infinite;
+  }
+}
+@keyframes floating-bag{
+  0%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(1.5rem);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
+.musgo-izq, .musgo-der{
+  position: absolute;
+  height: 10rem;
+   z-index: 1;
+}
+.musgo-izq{
+  bottom: 0;
+  left: 0;
+}
+.musgo-der{
+  bottom: 0;
+  right: 0;
+}

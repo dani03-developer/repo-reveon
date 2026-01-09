@@ -1,10 +1,10 @@
 @charset "UTF-8";
-body, .card-producto, .descripcion-producto, .slogan {
+body, .card-producto, .descripcion-producto, .container-form, .slogan {
   display: flex;
   flex-direction: column;
 }
 
-.texto-nosotros, .columna-producto-nosotros, .carousel, .group, .item-slogan, .container-modelo-footer, .imagen-portada-header {
+.texto-nosotros, .columna-producto-nosotros, .carousel, .group, .main-contacto, .container-img-contact, .item-slogan, .container-modelo-footer, .imagen-portada-header {
   display: flex;
   justify-content: center;
 }
@@ -387,6 +387,76 @@ body, .card-producto, .descripcion-producto, .slogan {
     translate: -100%;
   }
 }
+/*Contacto.html*/
+.main-contacto {
+  align-items: start;
+  flex-direction: row;
+  position: relative;
+}
+
+.container-form {
+  gap: 0.5rem;
+  z-index: 2;
+}
+.container-form h1 {
+  font-weight: 600;
+}
+.container-form form label, .container-form form .inputs {
+  margin-bottom: 1rem;
+}
+
+.inputs {
+  border: none;
+  color: #D9D9D9;
+  width: 100%;
+  background-color: transparent;
+  border-bottom: 0.1rem solid #D9D9D9;
+}
+
+.contact-btn {
+  background-color: #D9D9D9;
+  color: #0D0B0B;
+  padding: 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+  width: 40%;
+  border-radius: 0.2rem;
+}
+
+.container-img-contact img {
+  width: 85%;
+  z-index: 2;
+  animation: floating-bag 4s ease-in-out infinite;
+}
+
+@keyframes floating-bag {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(1.5rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.musgo-izq, .musgo-der {
+  position: absolute;
+  height: 10rem;
+  z-index: 1;
+}
+
+.musgo-izq {
+  bottom: 0;
+  left: 0;
+}
+
+.musgo-der {
+  bottom: 0;
+  right: 0;
+}
+
 /*===================================
               FOOTER                 
   ===================================*/
@@ -481,6 +551,19 @@ a {
   .carousel-inner {
     width: 60%;
   }
+  .main-contacto {
+    gap: 0.5rem;
+    margin-bottom: -3.5rem;
+  }
+  .container-form {
+    width: 40vw;
+    margin-left: 3rem;
+    margin-bottom: 10rem;
+  }
+  .container-img-contact {
+    margin-top: 8rem;
+    width: 45vw;
+  }
 }
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
@@ -526,6 +609,12 @@ a {
   .container-portada-header-nosotros {
     height: 80vh;
   }
+  .container-img-contact {
+    margin-top: 3.5rem;
+  }
+  .musgo-izq, .musgo-der {
+    height: 15rem;
+  }
 }
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
@@ -542,6 +631,9 @@ a {
   }
   .info {
     padding: 3rem 2rem 3rem 2rem; /*arriba, derecha, abajo, izquierda*/
+  }
+  .container-form {
+    width: 35vw;
   }
 }
 /* XX-Large devices (larger desktops, 1400px and up) */
@@ -561,6 +653,12 @@ a {
   .container-grid-productos-index {
     margin: 5rem;
     column-gap: 2rem;
+  }
+  .container-form {
+    width: 30vw;
+  }
+  .container-img-contact {
+    width: 35vw;
   }
 }
 
