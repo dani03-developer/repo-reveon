@@ -68,17 +68,25 @@ Abre el archivo index.html en tu navegador o utiliza la extensión Live Server d
 
 📸 Capturas del Proyecto
 
-FIGMA
+Fase de Prototipado (Figma)
 
-<img width="auto" height="15rem" alt="wireframe_detallado_desktop_figma" src="https://github.com/user-attachments/assets/09baaeee-b065-4c61-94e9-085f6ad982ca" /> 
-<img width="auto" height="15rem" alt="wireframe_detallado_about_desktop_figma" src="https://github.com/user-attachments/assets/3eba77b9-302a-41ed-a821-f3d108684735" />
+Home Desktop
 
-DESARROLLADO
+About Desktop
 
-<img width="auto" height="50%" alt="wireframe_detallado_about_desktop_figma" src="https://github.com/user-attachments/assets/7e8b2712-cd4d-4cd7-ba4e-84c1c4bd8a77" />
-<img width="auto" height="50%" alt="wireframe_detallado_about_desktop_figma" src="https://github.com/user-attachments/assets/034cbff3-dea6-478c-b510-538d728d92d0" />
+<img src="https://github.com/user-attachments/assets/09baaeee-b065-4c61-94e9-085f6ad982ca" width="30%" alt="Figma Home">
 
+<img src="https://github.com/user-attachments/assets/3eba77b9-302a-41ed-a821-f3d108684735" width="30%" alt="Figma About">
 
+Resultado Final (Desarrollado)
+
+Implementación Home
+
+Implementación About
+
+<img src="https://github.com/user-attachments/assets/7e8b2712-cd4d-4cd7-ba4e-84c1c4bd8a77" width="30%" alt="Web Home">
+
+<img src="https://github.com/user-attachments/assets/034cbff3-dea6-478c-b510-538d728d92d0" width="30%" alt="Web About">
 
 
 ✍️ Autora
