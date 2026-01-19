@@ -72,7 +72,7 @@ Fase de Prototipado (Figma)
 
 <img src="https://github.com/user-attachments/assets/09baaeee-b065-4c61-94e9-085f6ad982ca" width="40%" alt="Figma Home">
 
-<img src="https://github.com/user-attachments/assets/3eba77b9-302a-41ed-a821-f3d108684735" width="60%" alt="Figma About">
+<img src="https://github.com/user-attachments/assets/3eba77b9-302a-41ed-a821-f3d108684735" width="55%" alt="Figma About">
 
 <img width="50%" alt="Figma Catálogo" src="https://github.com/user-attachments/assets/573b02b0-d798-450c-bc79-af4010b3c4c4" />
 <img width="50%" alt="Web Contacto" src="https://github.com/user-attachments/assets/a2c1875f-9ecb-4720-a273-361a7da2ad59" />
@@ -81,11 +81,11 @@ Resultado Final (Desarrollado)
 
 <img src="https://github.com/user-attachments/assets/7e8b2712-cd4d-4cd7-ba4e-84c1c4bd8a77" width="40%" alt="Web Home">
 
-<img src="https://github.com/user-attachments/assets/034cbff3-dea6-478c-b510-538d728d92d0" width="60%" alt="Web About">
+<img src="https://github.com/user-attachments/assets/034cbff3-dea6-478c-b510-538d728d92d0" width="50%" alt="Web About">
 
 <img src="https://github.com/user-attachments/assets/d94194b5-a6f8-46f6-8c7f-ee28505d5ae5" width="50%" alt="Web Catálogo">
 
-<img src="https://github.com/user-attachments/assets/4642d724-9b9e-4712-a910-3bbda28d24c3" width="50%" alt="Web Contacto">
+<img src="https://github.com/user-attachments/assets/4642d724-9b9e-4712-a910-3bbda28d24c3" width="40%" alt="Web Contacto">
 
 
 ✍️ Autora
