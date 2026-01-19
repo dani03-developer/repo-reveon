@@ -70,8 +70,8 @@ Abre el archivo index.html en tu navegador o utiliza la extensión Live Server d
 
 FIGMA
 
-<img width="auto" height="50%" alt="wireframe_detallado_desktop_figma" src="https://github.com/user-attachments/assets/09baaeee-b065-4c61-94e9-085f6ad982ca" /> 
-<img width="auto" height="50%" alt="wireframe_detallado_about_desktop_figma" src="https://github.com/user-attachments/assets/3eba77b9-302a-41ed-a821-f3d108684735" />
+<img width="auto" height="15rem" alt="wireframe_detallado_desktop_figma" src="https://github.com/user-attachments/assets/09baaeee-b065-4c61-94e9-085f6ad982ca" /> 
+<img width="auto" height="15rem" alt="wireframe_detallado_about_desktop_figma" src="https://github.com/user-attachments/assets/3eba77b9-302a-41ed-a821-f3d108684735" />
 
 DESARROLLADO
 
