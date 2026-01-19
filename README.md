@@ -67,7 +67,18 @@ cd repo-reveon
 Abre el archivo index.html en tu navegador o utiliza la extensión Live Server de VS Code.
 
 📸 Capturas del Proyecto
-<img width="50%" height="auto" alt="wireframe_detallado_desktop" src="https://github.com/user-attachments/assets/e61f5585-79b5-44f0-bbba-e78f57f428a8" />
+
+FIGMA
+
+<img width="50%" height="auto" alt="wireframe_detallado_desktop_figma" src="https://github.com/user-attachments/assets/09baaeee-b065-4c61-94e9-085f6ad982ca" />
+<img width="50%" height="auto" alt="wireframe_detallado_about_desktop_figma" src="https://github.com/user-attachments/assets/3eba77b9-302a-41ed-a821-f3d108684735" />
+
+DESARROLLADO
+
+<img width="50%" height="auto" alt="wireframe_detallado_about_desktop_figma" src="https://github.com/user-attachments/assets/7e8b2712-cd4d-4cd7-ba4e-84c1c4bd8a77" />
+<img width="50%" height="auto" alt="wireframe_detallado_about_desktop_figma" src="https://github.com/user-attachments/assets/034cbff3-dea6-478c-b510-538d728d92d0" />
+
+
 
 
 ✍️ Autora
