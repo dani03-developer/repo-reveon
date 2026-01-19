@@ -70,19 +70,11 @@ Abre el archivo index.html en tu navegador o utiliza la extensión Live Server d
 
 Fase de Prototipado (Figma)
 
-Home Desktop
+<img src="https://github.com/user-attachments/assets/09baaeee-b065-4c61-94e9-085f6ad982ca" width="40%" alt="Figma Home">
 
-About Desktop
-
-<img src="https://github.com/user-attachments/assets/09baaeee-b065-4c61-94e9-085f6ad982ca" width="30%" alt="Figma Home">
-
-<img src="https://github.com/user-attachments/assets/3eba77b9-302a-41ed-a821-f3d108684735" width="30%" alt="Figma About">
+<img src="https://github.com/user-attachments/assets/3eba77b9-302a-41ed-a821-f3d108684735" width="50%" alt="Figma About">
 
 Resultado Final (Desarrollado)
-
-Implementación Home
-
-Implementación About
 
 <img src="https://github.com/user-attachments/assets/7e8b2712-cd4d-4cd7-ba4e-84c1c4bd8a77" width="30%" alt="Web Home">
 
