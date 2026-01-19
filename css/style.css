@@ -94,7 +94,7 @@ body, .card-producto, .descripcion-producto, .container-form, .slogan {
 .nav-link {
   color: #D9D9D9;
   font-weight: 500;
-  padding: 10px 0;
+  padding: 0.625rem 0;
   text-align: center;
 }
 
@@ -243,8 +243,8 @@ body, .card-producto, .descripcion-producto, .container-form, .slogan {
 .container-grid-productos-index, .container-grid-productos {
   display: grid;
   grid-template-columns: repeat(2, 0.5fr);
-  column-gap: 10px;
-  row-gap: 20px;
+  column-gap: 0.625rem;
+  row-gap: 1.25rem;
   margin: 0 0.75rem 0 0.75rem; /*arriba, derecha, abajo, izquierda*/
 }
 
@@ -302,7 +302,7 @@ body, .card-producto, .descripcion-producto, .container-form, .slogan {
   text-align: start;
   width: 89%;
 }
-.titulo-info h3 {
+.titulo-info h1, .titulo-info h3 {
   font-size: 1.1rem;
   font-weight: 700;
 }
